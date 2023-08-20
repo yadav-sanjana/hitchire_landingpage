@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Interactive Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hitchire !</h1>
+    </header>
+    <section>
+        <p>This is an interactive landing page created using Python and Django.</p>
+        <button id="click-me">Click Me!</button>
+        <p id="message"></p>
+    </section>
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
