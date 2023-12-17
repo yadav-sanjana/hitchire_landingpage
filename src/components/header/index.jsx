@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
 import logo from "../../assets/images/logo-white.png";
 import logo2 from "../../assets/images/logo-white.png";
 import avt from "../../assets/images/user/avatar/image-01.jpg";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 Header.propTypes = {};
 
 function Header({ clname = "", handleMobile }) {
-  const [activeIndex, setActiveIndex] = useState(null);
-  const handleDropdown = (index) => {
-    setActiveIndex(index);
-  };
+  // const [activeIndex, setActiveIndex] = useState(null);
+  // const handleDropdown = (index) => {
+  //   setActiveIndex(index);
+  // };
 
   const [scroll, setScroll] = useState(0);
 
@@ -22,7 +21,7 @@ function Header({ clname = "", handleMobile }) {
         setScroll(scrollCheck);
       }
     });
-  }, []);
+  });
 
   return (
     <header
@@ -41,13 +40,13 @@ function Header({ clname = "", handleMobile }) {
                       className="site-logo"
                       id="trans-logo"
                       src={logo}
-                      alt="Image"
+                      alt="logo"
                     />
                     <img
                       className="logo-none"
                       id="trans-logo"
                       src={logo2}
-                      alt="Image"
+                      alt="logo"
                     />
                   </Link>
                 </div>
@@ -819,7 +818,7 @@ function Header({ clname = "", handleMobile }) {
                   </div>
                 </div> */}
                 <div className="header-customize-item account">
-                  <img src={avt} alt="" />
+                  <img src={avt} alt="avatar"/>
                   <div className="name">Login/Signup</div>
 
                 </div>

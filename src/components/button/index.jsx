@@ -1,8 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
-Button.propTypes = {};
 
 function Button(props) {
   const { title, link } = props;

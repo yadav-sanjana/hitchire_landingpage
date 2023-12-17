@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import RangeOne from "../range-slider";
 import SelectLocation from "../dropdown";
 import Dropdown from "react-dropdown";

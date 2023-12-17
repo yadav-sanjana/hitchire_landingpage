@@ -1,6 +1,5 @@
 import React from "react";
 import SelectLocation from "../dropdown";
-import Dropdown from "react-dropdown";
 import { useState } from "react";
 
 function FormJobs() {

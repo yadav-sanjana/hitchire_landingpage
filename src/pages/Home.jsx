@@ -13,33 +13,33 @@ import dataTestimonials from "../assets/fakeData/dataTestimonials";
 import dataPartner from "../assets/fakeData/dataPartner";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Gotop from "../components/gotop";
+// import Gotop from "../components/gotop";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, TabPanel } from "react-tabs";
 import PopUpForm from "../components/popup";
 
 Home.propTypes = {};
 
-function Home(props) {
-    const [toggle, setToggle] = useState({
-        key: "",
-        status: false,
-    });
+function Home() {
+    // const [toggle, setToggle] = useState({
+    //     key: "",
+    //     status: false,
+    // });
     const [isShowMobile, setShowMobile] = useState(false);
 
-    const handleToggle = (key) => {
-        if (toggle.key === key) {
-            setToggle({
-                status: false,
-            });
-        } else {
-            setToggle({
-                status: true,
-                key,
-            });
-        }
-    };
+    // const handleToggle = (key) => {
+    //     if (toggle.key === key) {
+    //         setToggle({
+    //             status: false,
+    //         });
+    //     } else {
+    //         setToggle({
+    //             status: true,
+    //             key,
+    //         });
+    //     }
+    // };
 
     const handleMobile = () => {
         const getMobile = document.querySelector(".menu-mobile-popup");
@@ -74,7 +74,7 @@ function Home(props) {
                     <div className="mobile-header">
                         <div id="logo" className="logo">
                             <Link to="/">
-                                <img className="site-logo" src={logo} alt="Image" />
+                                <img className="site-logo" src={logo} alt="logo"/>
                             </Link>
                         </div>
                         <Link className="title-button-group"
@@ -232,7 +232,7 @@ function Home(props) {
 
             <Footer />
 
-            <Gotop />
+            {/* <Gotop /> */}
         </>
     );
 }
