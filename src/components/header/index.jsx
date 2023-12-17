@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import logo from "../../assets/images/logo-white.png";
-import logo2 from "../../assets/images/logo.png";
+import logo2 from "../../assets/images/logo-white.png";
 import avt from "../../assets/images/user/avatar/image-01.jpg";
 import { Link, NavLink } from "react-router-dom";
 
