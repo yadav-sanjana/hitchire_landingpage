@@ -21,9 +21,9 @@ function PopUpForm() {
           <Link className="title-button-group" onClick={handleClosePopup}>
             <i className="icon-close" />
           </Link>
-          <h6>Welcome to jobitex</h6>
+          <h6>Welcome to Hitchire</h6>
           <p>
-            Sign up to get all the latest Jobtex news, website updates, offers
+            Sign up to get all the latest Hitchire news, website updates, offers
             and promos.
           </p>
           <form>

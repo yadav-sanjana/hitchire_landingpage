@@ -23,7 +23,7 @@ function Employer(props) {
               <h1>{dataBlock.title}</h1>
               <p>{dataBlock.text}</p>
             </div>
-            <Button title="All Employers" link="/employers_v1" />
+            <Button title="All Employers" link="#" />
           </div>
           <div className="row wow fadeInUp">
             {data.map((idx) => (
@@ -31,7 +31,7 @@ function Employer(props) {
                 <div className="employer-block">
                   <div className="inner-box">
                     <div className="logo-company">
-                      <img src={idx.img} alt="Jobtex" />
+                      <img src={idx.img} alt="Hitchire" />
                     </div>
                     <div className="box-content">
                       <div className="star">
@@ -55,7 +55,7 @@ function Employer(props) {
                   </div>
                   <Link
                     to="/employersingle_v1"
-                    className="jobtex-link-item"
+                    className="Hitchire-link-item"
                     tabIndex="0"
                   ></Link>
                 </div>

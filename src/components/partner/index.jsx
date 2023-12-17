@@ -14,7 +14,7 @@ function Partner(props) {
       <div className="wd-partner">
         <div className="tf-container">
           <h1 className="title-partner">
-            Over 100,000 recruiters use Jobtex to modernize their hiring
+            Over 100,000 recruiters use Hitchire to modernize their hiring
           </h1>
 
           <Swiper

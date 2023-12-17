@@ -29,14 +29,14 @@ function Jobs(props) {
                 <div className="job-archive-header">
                   <div className="inner-box">
                     <div className="logo-company">
-                      <img src={idx.img} alt="jobtex" />
+                      <img src={idx.img} alt="Hitchire" />
                     </div>
                     <div className="box-content">
                       <h4>
-                        <Link to="/jobsingle_v1">{idx.cate}</Link>
+                        <Link to="#">{idx.cate}</Link>
                       </h4>
                       <h3>
-                        <Link to="/jobsingle_v1"> {idx.title} </Link>
+                        <Link to="#"> {idx.title} </Link>
                         <span className="icon-bolt"></span>
                       </h3>
                       <ul>
@@ -83,8 +83,8 @@ function Jobs(props) {
                   </div>
                 </div>
                 <Link
-                  to="/jobsingle_v1"
-                  className="jobtex-link-item"
+                  to="#"
+                  className="Hitchire-link-item"
                   tabIndex="0"
                 ></Link>
               </div>
@@ -93,7 +93,7 @@ function Jobs(props) {
 
           <div className="col-md-12">
             <div className="wrap-button">
-              <Button2 title="See more Jobs" link="/joblist_v1" />
+              <Button2 title="See more Jobs" link="#" />
             </div>
           </div>
         </div>

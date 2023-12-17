@@ -10,7 +10,7 @@ function BoxIcon(props) {
 
     const [dataBlock] = useState(
         {
-            title: 'What can I do with Jobtex?',
+            title: 'What can I do with Hitchire?',
             text: 'Streamline your hiring process with strategic channels to reach qualified candidates'
         },
     )

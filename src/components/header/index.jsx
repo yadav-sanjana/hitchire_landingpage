@@ -27,9 +27,8 @@ function Header({ clname = "", handleMobile }) {
   return (
     <header
       id="header"
-      className={`header header-default style-absolute header-fixed ${
-        scroll ? "is-fixed is-small" : ""
-      }`}
+      className={`header header-default style-absolute header-fixed ${scroll ? "is-fixed is-small" : ""
+        }`}
     >
       <div className="tf-container ct2">
         <div className="row">
@@ -52,7 +51,7 @@ function Header({ clname = "", handleMobile }) {
                     />
                   </Link>
                 </div>
-                <div className="categories">
+                {/* <div className="categories">
                   <Link to="#">
                     <span className="icon-grid"></span>Categories
                   </Link>
@@ -68,27 +67,27 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Digital marketing</Link>
+                                <Link to="#">Digital marketing</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Development & IT</Link>
+                                <Link to="#">Development & IT</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Music & Audio</Link>
+                                <Link to="#">Music & Audio</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">
+                                <Link to="#">
                                   Finance & Accounting
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Programming & Tech</Link>
+                                <Link to="#">Programming & Tech</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                             </ul>
                           </div>
@@ -96,24 +95,24 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">Adobe Photoshop</Link>
+                                <Link to="#">Adobe Photoshop</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">adobe XD</Link>
+                                <Link to="#">adobe XD</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">
+                                <Link to="#">
                                   Android Developer
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Figma</Link>
+                                <Link to="#">Figma</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">CSS, Html</Link>
+                                <Link to="#">CSS, Html</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -129,21 +128,21 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Digital marketing</Link>
+                                <Link to="#">Digital marketing</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">
+                                <Link to="#">
                                   Finance & Accounting
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Development & IT</Link>
+                                <Link to="#">Development & IT</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Programming & Tech</Link>
+                                <Link to="#">Programming & Tech</Link>
                               </li>
                             </ul>
                           </div>
@@ -151,13 +150,13 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">adobe XD</Link>
+                                <Link to="#">adobe XD</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Figma</Link>
+                                <Link to="#">Figma</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -173,19 +172,19 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Development & IT</Link>
+                                <Link to="#">Development & IT</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Music & Audio</Link>
+                                <Link to="#">Music & Audio</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">
+                                <Link to="#">
                                   Finance & Accounting
                                 </Link>
                               </li>
@@ -195,21 +194,21 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">adobe XD</Link>
+                                <Link to="#">adobe XD</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">
+                                <Link to="#">
                                   Android Developer
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Adobe Photoshop</Link>
+                                <Link to="#">Adobe Photoshop</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">CSS, Html</Link>
+                                <Link to="#">CSS, Html</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -225,13 +224,13 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Digital marketing</Link>
+                                <Link to="#">Digital marketing</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                             </ul>
                           </div>
@@ -239,21 +238,21 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">
+                                <Link to="#">
                                   Android Developer
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Adobe Photoshop</Link>
+                                <Link to="#">Adobe Photoshop</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">adobe XD</Link>
+                                <Link to="#">adobe XD</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Figma</Link>
+                                <Link to="#">Figma</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -269,24 +268,24 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Development & IT</Link>
+                                <Link to="#">Development & IT</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Programming & Tech</Link>
+                                <Link to="#">Programming & Tech</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Music & Audio</Link>
+                                <Link to="#">Music & Audio</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">
+                                <Link to="#">
                                   Finance & Accounting
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                             </ul>
                           </div>
@@ -294,10 +293,10 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">adobe XD</Link>
+                                <Link to="#">adobe XD</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Figma</Link>
+                                <Link to="#">Figma</Link>
                               </li>
                             </ul>
                           </div>
@@ -313,24 +312,24 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Digital marketing</Link>
+                                <Link to="#">Digital marketing</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Music & Audio</Link>
+                                <Link to="#">Music & Audio</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">
+                                <Link to="#">
                                   Finance & Accounting
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Programming & Tech</Link>
+                                <Link to="#">Programming & Tech</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                             </ul>
                           </div>
@@ -338,19 +337,19 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">Adobe Photoshop</Link>
+                                <Link to="#">Adobe Photoshop</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">adobe XD</Link>
+                                <Link to="#">adobe XD</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">Figma</Link>
+                                <Link to="#">Figma</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">CSS, Html</Link>
+                                <Link to="#">CSS, Html</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -366,16 +365,16 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">Design & Creative</Link>
+                                <Link to="#">Design & Creative</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Digital marketing</Link>
+                                <Link to="#">Digital marketing</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Programming & Tech</Link>
+                                <Link to="#">Programming & Tech</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                             </ul>
                           </div>
@@ -383,13 +382,13 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">Adobe Photoshop</Link>
+                                <Link to="#">Adobe Photoshop</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">CSS, Html</Link>
+                                <Link to="#">CSS, Html</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -405,15 +404,15 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Categories</h6>
                             <ul>
                               <li>
-                                <Link to="/joblist_v1">
+                                <Link to="#">
                                   Finance & Accounting
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">Programming & Tech</Link>
+                                <Link to="#">Programming & Tech</Link>
                               </li>
                               <li>
-                                <Link to="/joblist_v1">video & Animation</Link>
+                                <Link to="#">video & Animation</Link>
                               </li>
                             </ul>
                           </div>
@@ -421,13 +420,13 @@ function Header({ clname = "", handleMobile }) {
                             <h6>Top Skills</h6>
                             <ul>
                               <li>
-                                <Link to="/jobsingle_v1">Figma</Link>
+                                <Link to="#">Figma</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">CSS, Html</Link>
+                                <Link to="#">CSS, Html</Link>
                               </li>
                               <li>
-                                <Link to="/jobsingle_v1">BA</Link>
+                                <Link to="#">BA</Link>
                               </li>
                             </ul>
                           </div>
@@ -435,7 +434,7 @@ function Header({ clname = "", handleMobile }) {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="header-ct-center">
                 <div className="nav-wrap">
@@ -445,7 +444,7 @@ function Header({ clname = "", handleMobile }) {
                         className={`menu-item menu-item-has-children ${clname}`}
                       >
                         <Link to="#">Home </Link>
-                        <div className="menu-bar">
+                        {/* <div className="menu-bar">
                           <ul className="sub-menu-bar">
                             <li className="menu-item">
                               <NavLink to="/" className="nav1">
@@ -485,11 +484,11 @@ function Header({ clname = "", handleMobile }) {
                               <NavLink to="/home_v10">Home Page 10 </NavLink>
                             </li>
                           </ul>
-                        </div>
+                        </div> */}
                       </li>
                       <li className="menu-item menu-item-has-children ">
                         <Link to="#">Find jobs </Link>
-                        <ul className="sub-menu st1">
+                        {/* <ul className="sub-menu st1">
                           <li className="nav-sub">
                             <Link to="#">
                               Jobs Listing
@@ -497,7 +496,7 @@ function Header({ clname = "", handleMobile }) {
                             </Link>
                             <ul className="nav-sub-menu">
                               <li className="nav-menu-item">
-                                <NavLink to="/joblist_v1">List Layout</NavLink>
+                                <NavLink to="#">List Layout</NavLink>
                               </li>
                               <li className="nav-menu-item">
                                 <NavLink to="/job-grid">Grid Layout</NavLink>
@@ -537,14 +536,14 @@ function Header({ clname = "", handleMobile }) {
                                 </NavLink>
                               </li>
                               <li className="nav-menu-item">
-                                <NavLink to="/joblist_v10">
+                                <NavLink to="#0">
                                   Half Map - V2
                                 </NavLink>
                               </li>
                             </ul>
                           </li>
                           <li className="nav-sub">
-                            <NavLink to="/jobsingle_v1">
+                            <NavLink to="#">
                               Jobs Single - V1
                             </NavLink>
                           </li>
@@ -553,11 +552,11 @@ function Header({ clname = "", handleMobile }) {
                               Jobs Single - V2
                             </NavLink>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li className="menu-item menu-item-has-children">
                         <Link to="#">Employers</Link>
-                        <ul className="sub-menu st1">
+                        {/* <ul className="sub-menu st1">
                           <li className="nav-sub">
                             <Link to="#">
                               Employers Listing
@@ -625,11 +624,11 @@ function Header({ clname = "", handleMobile }) {
                               Employer Dashboard
                             </NavLink>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li className="menu-item menu-item-has-children">
                         <Link to="#">Candidates</Link>
-                        <ul className="sub-menu st1">
+                        {/* <ul className="sub-menu st1">
                           <li className="nav-sub">
                             <Link to="#">
                               Candidates Listing
@@ -707,11 +706,11 @@ function Header({ clname = "", handleMobile }) {
                               Candidates Dashboard
                             </NavLink>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li className="menu-item menu-item-has-children">
                         <Link to="#">Blog</Link>
-                        <ul className="sub-menu st1">
+                        {/* <ul className="sub-menu st1">
                           <li className="nav-sub">
                             <Link to="#">
                               Blog Listing
@@ -752,69 +751,20 @@ function Header({ clname = "", handleMobile }) {
                               </li>
                             </ul>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li className="menu-item menu-item-has-children">
-                        <Link to="#">Pages</Link>
-                        <ul className="sub-menu st1">
-                          <li className="nav-sub">
-                            <Link to="#">
-                              Shop
-                              <span className="icon-keyboard_arrow_right"></span>{" "}
-                            </Link>
-                            <ul className="nav-sub-menu">
-                              <li className="nav-menu-item">
-                                <NavLink to="/shop">Shop List</NavLink>
-                              </li>
-                              <li className="nav-menu-item">
-                                <NavLink to="/shopsingle">Shop Single</NavLink>
-                              </li>
-                              <li className="nav-menu-item">
-                                <NavLink to="/shoppingcart">
-                                  Shopping Cart
-                                </NavLink>
-                              </li>
-                              <li className="nav-menu-item">
-                                <NavLink to="/checkout">Checkout</NavLink>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/aboutus">About Us</NavLink>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/faqs">FAQS</NavLink>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/termsofuse">Terms Of Use</NavLink>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/pricing">Pricing</NavLink>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/login">Login</NavLink>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/createaccount">
-                              Create Account
-                            </NavLink>
-                          </li>
-                          <li className="nav-sub">
-                            <NavLink to="/contactus">Contact Us</NavLink>
-                          </li>
-                        </ul>
-                      </li>
+
                     </ul>
                   </nav>
                 </div>
               </div>
               <div className="header-ct-right">
                 <div className="header-customize-item help">
-                  <Link to="/termsofuse">
+                  <Link to="#">
                     <span className="icon-help-circle"></span>
                   </Link>
                 </div>
-                <div className="header-customize-item bell">
+                {/* <div className="header-customize-item bell">
                   <span className="icon-bell"></span>
                   <div className="sub-notification">
                     <div className="sub-notification-heading">
@@ -867,15 +817,15 @@ function Header({ clname = "", handleMobile }) {
                       <Link to="#">Read All</Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="header-customize-item account">
                   <img src={avt} alt="" />
-                  <div className="name">Candidates</div>
-      
+                  <div className="name">Login/Signup</div>
+
                 </div>
-                <div className="header-customize-item button">
+                {/* <div className="header-customize-item button">
                   <Link to="/">Upload Resume</Link>
-                </div>
+                </div> */}
               </div>
               <div className="nav-filter" onClick={handleMobile}>
                 <div className="nav-mobile">
